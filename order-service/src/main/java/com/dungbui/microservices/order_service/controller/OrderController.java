@@ -19,9 +19,10 @@ public class OrderController {
 
     @PostMapping
     @ResponseStatus(HttpStatus.CREATED)
-    public void placeOrder(@RequestBody OrderRequest orderRequest) {
+    public String placeOrder(@RequestBody OrderRequest orderRequest) {
         // Call the service to place the order
         orderService.placeOrder(orderRequest);
+        return "Order Placed Successfully";
     }
 
     // Other endpoints can be added similarly
