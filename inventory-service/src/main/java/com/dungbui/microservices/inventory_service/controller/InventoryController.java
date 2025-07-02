@@ -1,8 +1,8 @@
-package com.dungbui.microservices.inventory.controller;
+package com.dungbui.microservices.inventory_service.controller;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import com.dungbui.microservices.inventory.service.InventoryService;
+import com.dungbui.microservices.inventory_service.service.InventoryService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.GetMapping;

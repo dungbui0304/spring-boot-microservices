@@ -1,7 +1,7 @@
-package com.dungbui.microservices.inventory.repository;
+package com.dungbui.microservices.inventory_service.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
-import com.dungbui.microservices.inventory.model.Inventory;
+import com.dungbui.microservices.inventory_service.model.Inventory;
 
 
 public interface InventoryRepository extends JpaRepository<Inventory, Long> {
