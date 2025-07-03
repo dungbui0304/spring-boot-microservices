@@ -2,7 +2,8 @@ package com.dungbui.microservices.order_service.service;
 
 import java.util.UUID;
 import org.springframework.stereotype.Service;
-import com.dungbui.microservices.order_service.InventoryClient;
+
+import com.dungbui.microservices.order_service.client.InventoryClient;
 import com.dungbui.microservices.order_service.dto.OrderRequest;
 import com.dungbui.microservices.order_service.model.Order;
 import com.dungbui.microservices.order_service.repository.OrderRepository;

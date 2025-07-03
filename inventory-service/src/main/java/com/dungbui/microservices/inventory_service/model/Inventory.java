@@ -1,4 +1,4 @@
-package com.dungbui.microservices.inventory.model;
+package com.dungbui.microservices.inventory_service.model;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;

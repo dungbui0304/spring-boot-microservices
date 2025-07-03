@@ -1,7 +1,7 @@
-package com.dungbui.microservices.inventory.service;
+package com.dungbui.microservices.inventory_service.service;
 
 import org.springframework.stereotype.Service;
-import com.dungbui.microservices.inventory.repository.InventoryRepository;
+import com.dungbui.microservices.inventory_service.repository.InventoryRepository;
 import lombok.RequiredArgsConstructor;
 
 @Service
